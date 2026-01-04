@@ -17,7 +17,7 @@ Firefly RPC is a project that enables Discord RPC integration.
      ```
    - Start the project:  
      ```bash
-     yarn start
+     node test.js
      ```
 
 4. **Open Discord and enjoy 🎉**
@@ -25,7 +25,7 @@ Firefly RPC is a project that enables Discord RPC integration.
 ---
 
 ## 📂 Project Structure
-- `src/` : Main source code  
+- `test.js` : Main source code  
 - `package.json` : Dependencies and scripts  
 - `README.md` : Documentation  
 
