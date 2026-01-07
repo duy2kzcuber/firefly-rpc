@@ -19,7 +19,11 @@ Firefly RPC is a project that enables Discord RPC integration.
      ```bash
      node test.js
      ```
-
+   - Or you can run these command to complie to an exe file:
+      ```bash
+      npm install -g pkg
+      pkg test.js --targets node18-win-x64 --output firefly.exe
+      ```
 4. **Open Discord and enjoy 🎉**
 ---
 
@@ -27,5 +31,9 @@ Firefly RPC is a project that enables Discord RPC integration.
 - `test.js` : Main source code  
 - `package.json` : Dependencies and scripts  
 - `README.md` : Documentation  
-#Alternative instruction
+## Alternative instruction
 You can run file firefly.exe instead. The result is the same as above
+
+
+## Complie to file exe instruction:
+1.

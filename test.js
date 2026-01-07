@@ -8,7 +8,7 @@ let reconnectTimeout = null;
 let isConnecting = false;
 
 RPC.register(clientId);
-
+const startedDate = Date.now();
 function startRPC() {
     if (isConnecting) return;
     isConnecting = true;
@@ -20,7 +20,7 @@ function startRPC() {
         console.log("RPC connected");
 
         rpc.setActivity({
-            startTimestamp: Date.now(),
+            startTimestamp: startedDate,
             buttons: [
                 { label: "GitHub", url: "https://github.com" }
             ]
